@@ -18,8 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-### output
-output_dir: lora_saves/LLaMA-3.1-8B-Instruct/lora/tokenskip_gsm8k
+output_dir: lora_saves/LLaMA-3.1-8B-Instruct/lora/tokenskip_gsm8k_v2
 logging_steps: 10
 save_steps: 300
 plot_loss: true
