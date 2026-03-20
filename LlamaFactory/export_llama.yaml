@@ -1,0 +1,11 @@
+### model
+model_name_or_path: meta-llama/Meta-Llama-3.1-8B-Instruct
+adapter_name_or_path: lora_saves/LLaMA-3.1-8B-Instruct/lora/tokenskip_gsm8k
+template: llama3
+finetuning_type: lora
+
+### export
+export_dir: ../TokenSkip/models/LLaMA-3.1-8B-TokenSkip
+export_size: 5
+export_device: auto
+export_legacy_format: false

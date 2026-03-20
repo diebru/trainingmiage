@@ -1,0 +1,33 @@
+# --- Python & System ---
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Modelli e Pesi (MOLTO PESANTI) ---
+# Ignoriamo le cartelle che contengono i pesi dei modelli
+TokenSkip/models/
+LlamaFactory/lora_saves/
+LlamaFactory/saves/
+*.bin
+*.safetensors
+*.pth
+*.onnx
+
+# --- Dataset e Output ---
+# I dataset originali e i risultati dei training sono spesso pesanti
+TokenSkip/datasets/
+TokenSkip/outputs/
+LlamaFactory/data/mydataset.json
+
+# --- Ambienti Virtuali ---
+# Se creerai una cartella venv o env
+venv/
+env/
+.env
+
+# --- File di configurazione utente (opzionale) ---
+# Se hai file .yaml o .json con percorsi locali assoluti
+# LlamaFactory/train_llama.yaml
