@@ -19,7 +19,6 @@ LlamaFactory/saves/
 # --- Dataset e Output ---
 # I dataset originali e i risultati dei training sono spesso pesanti
 TokenSkip/datasets/
-TokenSkip/outputs/
 LlamaFactory/data/mydataset.json
 
 # --- Ambienti Virtuali ---
