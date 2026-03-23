@@ -6,9 +6,10 @@ __pycache__/
 Thumbs.db
 *.log
 
-# --- Modelli e Pesi (MOLTO PESANTI) ---
+# Modelli-pesi.output
 # Ignoriamo le cartelle che contengono i pesi dei modelli
 TokenSkip/models/
+TokenSkip/outputs/
 LlamaFactory/lora_saves/
 LlamaFactory/saves/
 *.bin
